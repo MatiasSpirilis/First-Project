@@ -27,7 +27,7 @@ fetch(data)
                         <img class="cards__one--img" src=${element.pic} alt="pic" />
                     </div>
                     <div class="cards__two">
-                        <h3 class="cards__two--status"><span class=${element.status === "Alive" ? "dot" : "dot2"}></span> ${element.status}</h3>
+                        <h3 class="cards__two--status"><span class=${element.status === "Alive" ? "dot" : "dot2"}${element.status === "unknown" ? "unknown" : ""}></span> ${element.status}</h3>
                         <h3 class="cards__two--gender">Gender: ${element.gender}</h3>
                         <h3 class="cards__two--species">${element.specie}</h3>
                     </div>
