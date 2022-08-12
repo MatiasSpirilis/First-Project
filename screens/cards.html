@@ -4,9 +4,9 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="/styles/form.css" />
+        <link rel="stylesheet" href="/styles/cards.css" text="type/css" />
         <link rel="stylesheet" href="/styles/navbar.css" />
-        <title>Form</title>
+        <title>Cards</title>
     </head>
     <body>
         <nav>
@@ -94,74 +94,21 @@
                 </div>
             </div>
         </nav>
-
-        <section>
-            <div class="parent-container">
-                <div class="form-container">
-                    <h2 class="form-title">Contact</h2>
-                    <form
-                        class="form-body"
-                        action="https://formsubmit.co/matispi92@gmail.com"
-                        method="POST"
-                    >
-                        <!-- <label for="firstName">First Name: </label> -->
-                        <input
-                            id="inputFirstName"
-                            class="input-contact"
-                            type="text"
-                            name="name"
-                            placeholder="First name..."
-                            required
-                        />
-
-                        <br />
-
-                        <!-- <label for="secondName">Second Name: </label> -->
-                        <input
-                            id="inputSecondName"
-                            class="input-contact"
-                            type="text"
-                            name="name"
-                            placeholder="Second name..."
-                            required
-                        />
-
-                        <br />
-
-                        <!-- <label for="email">Email: </label> -->
-                        <input
-                            id="inputEmail"
-                            class="input-contact"
-                            type="email"
-                            name="email"
-                            placeholder="Email..."
-                            required
-                        />
-
-                        <br />
-
-                        <textarea
-                            name="msg"
-                            class="input-textarea"
-                            id="inputMsg"
-                            cols="40"
-                            rows="10"
-                            placeholder="Your comments.."
-                            required
-                        ></textarea>
-                        <br />
-                        <div class="form-btn-container">
-                            <input
-                                value="Submit"
-                                class="form--btn"
-                                id="formBtn"
-                                type="submit"
-                            />
-                        </div>
-                    </form>
+        <div class="container" id="cards">
+            <!-- <div class="cards">
+                <div class="cards__one">
+                    <div class="cards__one--name">
+                        <h1>Rick Sanchez</h1>
+                    </div>
+                    <img class="cards__one--img" src="https://rickandmortyapi.com/api/character/avatar/703.jpeg" alt="pic" />
                 </div>
-            </div>
-        </section>
+                <div class="cards__two">
+                    <h3 class="cards__two--status">Alive</h3>
+                    <h3 class="cards__two--gender">Gender: Male</h3>
+                    <h3 class="cards__two--species">Human</h3>
+                </div>
+            </div> -->
+        </div>
     </body>
-    <script src="/webs/pagesjs/form.js"></script>
+    <script src="/pages-js/cards.js"></script>
 </html>

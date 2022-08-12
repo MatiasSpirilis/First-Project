@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/styles/form.css" />
+        <link rel="stylesheet" href="/styles/navbar.css" />
+        <title>Form</title>
+    </head>
+    <body>
+        <nav>
+            <div class="nav--uno">
+                <img src="https://www.avalith.net/icons/avalith-logo.svg" alt="">
+            </div>
+            <div class="nav--dos">
+                <ul class="nav--dos__links">
+                    <li>
+                        <a target="_blank" href="../pages/table.html"
+                            >Table</a
+                        >
+                    </li>
+                    <li>
+                        <a target="_blank" href="../pages/cards.html"
+                            >Cards</a
+                        >
+                    </li>
+                    <li>
+                        <a target="_blank" href="../pages/form.html"
+                            >Contact</a
+                        >
+                    </li>
+                </ul>
+            </div>
+            <div class="dropdown">
+                <p class="dropdown-title">Members</p>
+
+                <div class="dropdown-content">
+                    <a
+                        href="https://www.linkedin.com/in/matias-spirilis/"
+                        target="_blank"
+                    >
+                        <div class="dropdown-content__img">
+                            <img
+                                src="https://media-exp1.licdn.com/dms/image/C4D03AQEPoSO4MrUKvA/profile-displayphoto-shrink_200_200/0/1640126537885?e=1665619200&v=beta&t=lM6l5cGiqeTh8eU-BHJtgKv1bFbQhHid-P1_YypsQDk"
+                                alt="img"
+                            />
+                        </div>
+                        <span class="dropdown-content__text"
+                            >Matias Spirilis</span
+                        ></a
+                    >
+                    <a
+                        href="https://www.linkedin.com/in/javieremanuelhuebra/"
+                        target="_blank"
+                        ><div class="dropdown-content__img">
+                            <img
+                                src="https://media-exp1.licdn.com/dms/image/C4E03AQGyOusjIGc5Pg/profile-displayphoto-shrink_800_800/0/1659716091454?e=1665619200&v=beta&t=JzowC270_EDGN7l2LuP1_58G_JwvDxAGH7VgyOtIRMI"
+                                alt="img"
+                            />
+                        </div>
+                        <span class="dropdown-content__text"
+                            >Javier Huebra</span
+                        ></a
+                    >
+                    <a
+                        href="https://www.linkedin.com/in/sebadalessandro/"
+                        target="_blank"
+                    >
+                        <div class="dropdown-content__img">
+                            <img
+                                src="https://media-exp1.licdn.com/dms/image/C4D03AQG965AegRsASA/profile-displayphoto-shrink_800_800/0/1651496748433?e=1665619200&v=beta&t=ooyNEScchCpiVafi3J6jXn83KRQXYId9Mq7R4xOfSv0"
+                                alt="img"
+                            />
+                        </div>
+                        <span class="dropdown-content__text"
+                            >Sebastian Dalessandro</span
+                        ></a
+                    >
+                    <a
+                        href="https://www.linkedin.com/in/rolando-ramon-duarte-93116b17a/"
+                        target="_blank"
+                    >
+                        <div class="dropdown-content__img">
+                            <img
+                                src="https://media-exp1.licdn.com/dms/image/C4D03AQE2gMTzaN_G0g/profile-displayphoto-shrink_800_800/0/1637330901283?e=1665619200&v=beta&t=hEnayYE9yIidQzdcTg9HPu0mFJrEamH3PFg5PvSWFJk"
+                                alt="img"
+                            />
+                        </div>
+                        <span class="dropdown-content__text"
+                            >Rolando Duarte</span
+                        ></a
+                    >
+                </div>
+            </div>
+        </nav>
+
+        <section>
+            <div class="parent-container">
+                <div class="form-container">
+                    <h2 class="form-title">Contact</h2>
+                    <form
+                        class="form-body"
+                        action="https://formsubmit.co/matispi92@gmail.com"
+                        method="POST"
+                    >
+                        <!-- <label for="firstName">First Name: </label> -->
+                        <input
+                            id="inputFirstName"
+                            class="input-contact"
+                            type="text"
+                            name="name"
+                            placeholder="First name..."
+                            required
+                        />
+
+                        <br />
+
+                        <!-- <label for="secondName">Second Name: </label> -->
+                        <input
+                            id="inputSecondName"
+                            class="input-contact"
+                            type="text"
+                            name="name"
+                            placeholder="Second name..."
+                            required
+                        />
+
+                        <br />
+
+                        <!-- <label for="email">Email: </label> -->
+                        <input
+                            id="inputEmail"
+                            class="input-contact"
+                            type="email"
+                            name="email"
+                            placeholder="Email..."
+                            required
+                        />
+
+                        <br />
+
+                        <textarea
+                            name="msg"
+                            class="input-textarea"
+                            id="inputMsg"
+                            cols="40"
+                            rows="10"
+                            placeholder="Your comments.."
+                            required
+                        ></textarea>
+                        <br />
+                        <div class="form-btn-container">
+                            <input
+                                value="Submit"
+                                class="form--btn"
+                                id="formBtn"
+                                type="submit"
+                            />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </body>
+    <script src="/pages-js/form.js"></script>
+</html>
